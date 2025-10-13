@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.nox/
+.venv/
+venv/
+env/
+# For testing (if any temporary test files are generated)
+tmp/
+temp/
+
+# Environment variables
+.env
+
+# Database files
+# For PostgreSQL, typically only the connection string is in .env,
+# and the DB itself is external. If you had local SQLite files:
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# FAISS Index files (these are binary and should not be committed)
+faiss_index.bin
+id_map.pkl
+
+# Log files
+*.log
+
+# IDE specific files
+.vscode/        # VS Code settings (optional, if you want to share workspace settings remove this)
+.idea/          # PyCharm
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
+Desktop.ini     # Windows
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+
+# Streamlit specific (cache, etc.)
+.streamlit/
+streamlit_data/ # If Streamlit creates a specific data directory```
